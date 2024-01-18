@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rhee-Math</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"> 
+    
+
+  </head>
+  <body style="width: 100%; background-color: rgb(43, 43, 105); height: 3400px; font-family: 'arvo'">
+    <main>
+      <div class="header">
+        <div class="toolbar">
+            <div class="leftsection">
+              <a href="../HTML/homepage.html">
+                <img class="logo" src="/Images/FInallogo.png">
+              </a>
+            </div>
+            <div class="middlesection"></div>
+            <div class="rightsection">
+                <a href="../HTML/homepage.html">
+                  <button class="homepage-button">
+                    Home
+                  </button>
+                </a>
+                <a href="../HTML/concepts.html">
+                  <button class="concepts-button">
+                    Concepts
+                  </button>
+                </a>
+                <a href="../HTML/techniques.html">
+                  <button class="techniques-button">
+                    Techniques
+                  </button>
+                </a>
+                <a href="../HTML/resource.html">
+                  <button class="resources-button">
+                    Resources
+                  </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        Factors and Divisors
+      </div>
+    </div>
+    <hr class="line">
+    <div class="container1">
+      <div class="firstsubtitle">
+        Factoring properties
+      </div>
+      <div class="firstdescription">
+        Factoring is an extremely important tool in competition math. It requires you to understand many different properties, and these 
+        properties will be taught in this lesson. The first property is on the number of divisors of a given number. To find the number of divisors,
+        you must first how many different prime factors there are of a number. For example, the number 84 can be represented as 2^2 * 41.
+        From here, you must add one to the number of each prime factor, in this case being (2+1)*(1+1) as there are two 2 factors and one 41 factor. 
+        This would give us the final result of 6 total factors of the number 84. 
+      </div>
+
+      
+      
+    </div>
+    <div class="container">
+      <div class="container2">
+        <div class="secondsubtitle">
+          Factors using quadratics
+        </div>
+        <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/p1jiSANxQZU?si=GBIF0GaVWsQYKqYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="container">
+      <div class="flexing">
+        <div class="container">
+          <div class="description1">
+            Divisibility rules can be extremely helpful in competition math as you are under time pressure. Due to this time pressure, 
+            students are forced to think quickly, especially in complex number theory problems. Therefore, by knowing these properties, not only will you be able to solve more problems but will be able to do so much faster, 
+            giving you the edge in the actual competition. For example, when asked for three unknown digits in the number 13, you can use divisibility rules to fill in the gaps and actually solve the problem using pure intuition.
+          </div>
+        </div>
+        
+        <img class="imageforflex" src="../Images/Divisibility.jpeg">
+      </div>
+    </div>
+    
+    </main>
+
+    <style>
+      .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 100px;
+    z-index: 1;
+    background-color: #0f0f32;
+    width: 100%;
+    
+}
+.toolbar{
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.rightsection{
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+    width: 1fr;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.leftsection{
+    width: 1fr;
+}
+.logo{
+    width: 150px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.middlesection{
+    flex: 1;
+}
+.concepts-button{
+    border-radius: 7px;
+    border: none;
+    background-color: transparent;
+    color: #FBFCF8;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.homepage-button:hover{
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+.homepage-button{
+    background-color: transparent;
+    border: none;
+    color: #FBFCF8;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.concepts-button:hover{
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+.techniques-button{
+    background-color: transparent;
+    border: none;
+    color: #FBFCF8;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.techniques-button:hover{
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+.resources-button{
+    background-color: transparent;
+    border: none;
+    border-radius: 7px;
+    color: #FBFCF8;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.resources-button:hover{
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.firstsubtitle{
+  color: white;
+  margin-bottom: 50px;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.title{
+  color: white;
+  font-size: 45px;
+  font-family: 'arvo';
+  margin-top: 50px;
+}
+.firstdescription{
+  font-size: 15px;
+  color: white;
+  width: 800px;
+  text-align: center;
+
+}
+.secondsubtitle{
+  color: white;
+  font-size: 30px;
+  font-family: 'arvo';
+  margin-left: 100px;
+  margin-right: -30px;
+}
+.container2{
+  background-color: rgb(80, 111, 207);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  width: 800px;
+  height: 350px;
+}
+.iframe{
+  margin-right: 30px;
+}
+.flexing{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.description1{
+  font-size: 17px;
+  color: white;
+  width: 300px;
+  text-align: center;
+}
+.imageforflex{
+  width: 300px;
+  margin-left: 50px;
+}
+    </style>
+	<script>
+
+    </script>
+    
+  </body>
+</html>
